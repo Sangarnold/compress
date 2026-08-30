@@ -8,7 +8,7 @@
 #define DST_W 640
 #define DST_H 360
 
-void scale_1080p_to_360p(const uint8_t *src, uint8_t dst)
+void scale_1080p_to_360p(const uint8_t *src, uint8_t *dst)
 {
   const int src_stride = SRC_W * 3;
   const int dst_stride = DST_W * 3;
